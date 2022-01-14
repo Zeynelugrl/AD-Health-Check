@@ -3,6 +3,7 @@
 #       Date: 14/01/2022
 #       Satus: Ping,Netlogon,NTDS,DNS,DCdiag Test(Replication,sysvol,Services)
 #       Description: AD Health Status
+#	Source:https://techwizard.cloud/adhealthcheck/
 #############################################################################
 ###########################Define Variables##################################
 
@@ -339,7 +340,7 @@ $From = "GÖNDERİCİ"
 $To = "ALICI"
 $Cc = "ALICI CC"
 $Subject = "KONU"
-$Body = Get-Content "ÇIKTI DİZİNİ"
+$Body = Get-Content ".\ADreport.htm"
 $SMTPServer = "SMTP ADRESİ"
 $SMTPPort = "PORT"
 
@@ -355,6 +356,3 @@ Send-MailMessage -From $From -to $To  -Cc $Cc -Subject $Subject -Body ($Body | O
 ########################################################################################
 
 ########################################################################################
- 
-         	
-		
