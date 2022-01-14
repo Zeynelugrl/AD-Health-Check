@@ -1,9 +1,7 @@
-#############################################################################
-#       Author: Vikas Sukhija
-#       Reviewer: Zeynel UGURLU    
-#       Date: 12/25/2014
+
+#       Author: Zeynel UGURLU    
+#       Date: 14/01/2022
 #       Satus: Ping,Netlogon,NTDS,DNS,DCdiag Test(Replication,sysvol,Services)
-#       Update: Added Advertising
 #       Description: AD Health Status
 #############################################################################
 ###########################Define Variables##################################
@@ -337,15 +335,15 @@ Add-Content $report "</html>"
 
 
 
-$From = "alert.zeynel@gmail.com"
-$To = "zeynelugrl@gmail.com"
-$Cc = "alert.zeynel@iletisim.com"
-$Subject = "(zeynel.local) Active Directory Health Monitor"
-$Body = Get-Content "C:\Users\zeynel.ugurlu\Desktop\ADreport.htm"
-$SMTPServer = "smtp.gmail.com"
-$SMTPPort = "587"
+$From = "GÖNDERİCİ"
+$To = "ALICI"
+$Cc = "ALICI CC"
+$Subject = "KONU"
+$Body = Get-Content "ÇIKTI DİZİNİ"
+$SMTPServer = "SMTP ADRESİ"
+$SMTPPort = "PORT"
 
-$pass = ConvertTo-SecureString "123-+asd" -AsPlainText -Force
+$pass = ConvertTo-SecureString "ŞİFRENİZİ YAZINIZ" -AsPlainText -Force
 $cred = New-Object System.Management.Automation.PSCredential ($From, $pass)
 
 Send-MailMessage -From $From -to $To  -Cc $Cc -Subject $Subject -Body ($Body | Out-String) -BodyAsHtml -SmtpServer $SMTPServer -Port $SMTPPort -UseSsl -Credential $cred 
