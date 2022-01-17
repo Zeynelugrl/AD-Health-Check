@@ -10,12 +10,20 @@ Bu scripti indirdikten sonrasında editleyerek kendimize uygun hale getirmemiz g
 İndirdiğimiz scripti sağ tıklayıp “Edit” seçeneğine tıklıyoruz. Böylece PowerShell ISE açılacaktır. Ben göndermesi için yazdığım kısmı en aşağıya ekledim.
 
 $From = Gönderici “abc@abc.com”
+
 $To = Alıcı “abc@abc.com”
+
 $Cc = CC’deki Alıcı “cba@abc.com”
+
 $Subject = Konu ”Health Check”
+
 $SMTPServer = SMTP sunucumuz “smtp@abc.com”
+
 $SMTPPort = Port “587”
+
 $pass Gönderici şifreniz
 
+
 Detaylı bilgi için https://www.mshowto.org/ad-health-check.html adresinden makalemi okuyabilirsiniz.
+
 Konuyla ilgili sorularınızı iletisim@zeynelugurlu.com adresinden bana ulaştırabilirsiniz.
