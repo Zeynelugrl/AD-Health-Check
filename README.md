@@ -25,6 +25,6 @@ $pass Gönderici şifreniz
 
 
 
-# Detaylı bilgi için https://www.mshowto.org/ad-health-check.html adresinden makalemi okuyabilirsiniz.
+ Detaylı bilgi için https://www.mshowto.org/ad-health-check.html adresinden makalemi okuyabilirsiniz.
 
-# Konuyla ilgili sorularınızı iletisim@zeynelugurlu.com adresinden bana ulaştırabilirsiniz.
+ Konuyla ilgili sorularınızı iletisim@zeynelugurlu.com adresinden bana ulaştırabilirsiniz.
