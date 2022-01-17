@@ -24,6 +24,7 @@ $SMTPPort = Port “587”
 $pass Gönderici şifreniz
 
 
-Detaylı bilgi için https://www.mshowto.org/ad-health-check.html adresinden makalemi okuyabilirsiniz.
 
-Konuyla ilgili sorularınızı iletisim@zeynelugurlu.com adresinden bana ulaştırabilirsiniz.
+# Detaylı bilgi için https://www.mshowto.org/ad-health-check.html adresinden makalemi okuyabilirsiniz.
+
+# Konuyla ilgili sorularınızı iletisim@zeynelugurlu.com adresinden bana ulaştırabilirsiniz.
